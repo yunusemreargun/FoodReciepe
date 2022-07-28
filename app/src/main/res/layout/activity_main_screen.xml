@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainScreen">
+
+
+    <Button
+        android:id="@+id/fragment1button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:onClick="goToFirst"
+        android:text="Çorbalar">
+
+    </Button>
+
+    <Button
+        android:id="@+id/fragment2button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:onClick="goToSecond"
+        android:text="ET YEMEKLERİ">
+
+    </Button>
+
+    <Button
+        android:id="@+id/fragment3button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToThird"
+        android:text="sebze yemekleri" />
+
+    <Button
+        android:id="@+id/fragment4button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToFourth"
+        android:text="TATLILAR" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:id="@+id/frame_layout"
+></FrameLayout>
+
+</LinearLayout>

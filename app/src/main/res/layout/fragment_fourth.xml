@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="121dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sweet1" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="4dp"
+        android:text="Baklava"
+        android:textColor="#9C27B0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="263dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="32dp"
+        android:text="Öncelikle baklava yapımında tatlının şerbetini su ve şekeri bir tencerede kaynatıp hazırlayın.  Kaynadıktan sonra kısık ateşte 30 dakika daha kaynatıp soğumaya bırakın.  Hamur malzemelerini derin bir kabın içinde karıştırıp, hamuru yoğurun.  Dinlenen hamurdan 8 tane beze elde edin.  Tezgaha hafif nişasta serperek açabileceğiniz en ince şekilde açın.  Fazla nişastayı yufkanın üzerinden atın ve oda sıcaklığında açılan yufkaları 10-15 dakika bekletin.  Ardından tepsinin tabanını yağlayın.  Açtığınız yufkaların 4 tanesini üst üste koyun.  Daha sonra üzerine bolca fıstık ilave edip diğer katlarını da koyun.  Baklavanızı dilediğiniz gibi dilim dilim kesin.  Üzerine eritilmiş tereyağını da gezdirin.  Önceden ısıtılmış 180 derece fırında üzeri kızarıp içi pişene kadar yaklaşık 40 dakika pişirin.  Fırından çıkardığınız baklavanın üzerine şerbeti gezdirin."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="122dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:srcCompat="@drawable/sweeet2" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="180dp"
+        android:text="Puding"
+        android:textColor="#9C27B0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="255dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:text="750 ml (3,5 su bardağı) sütü bir tencereye boşaltın. Üzerine poşetin tamamını ilave edin. Orta ateşte bir kaşıkla sürekli karıştırarak pişirin. Kaynamaya başlayınca ocağı kısıp 2-3 dakika daha karıştırarak pişirmeye devam edin."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="128dp"
+        android:layout_height="174dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:srcCompat="@drawable/sweer9" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Sütlaç"
+        android:textColor="#9C27B0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="252dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="32dp"
+        android:text="1 su bardağı pirinci 2 su bardağı su ilave ederek tencerede suyunu çektirerek pişirin. Suyunu iyice çeken pirinçlere 2 litre süt ilave edin. ... Süt ile pirinç iyice kaynadıktan sonra 2 su bardağı şekeri tencereye ilave edin. Şekeri de ekledikten sonra kısık ateşte bir saat pişmeye bırakın."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+</androidx.constraintlayout.widget.ConstraintLayout>

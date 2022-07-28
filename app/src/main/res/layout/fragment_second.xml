@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="157dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/corba2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:text="Çökertme Kebabı"
+        android:textColor="#9C27B0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="150dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/corba3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:text="Hünkar Beğendi"
+        android:textColor="#9C27B0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.167" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="151dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Etler düdüklüye alınır harlı ateşte suyunu salıp çekene kadar kavrulur. Suyunu çekince sıvı yağ ve ezilmiş 2 diş sarımsak eklenip 1-2 tur çevrilip su eklenir ve kapatılır. Etler yumuşayıp suyunu çekene kadar pişirilir."
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="194dp"
+        android:layout_height="193dp"
+        android:layout_marginEnd="16dp"
+        android:text="Tereyağını tavada eritip unu yağda kokusu çıkana kadar kavurun. Patlıcanları ve sütü de ekleyip homojenleşene kadar sürekli karıştırın. Tuz ve karabiberle birlikte kaşar peyniri de ekleyip karıştırdıktan sonra ocaktan alın. Beğendiyi tabakların ortasına yerleştirip üzerine eti koyun ve sıcak servis edin."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="156dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        app:srcCompat="@drawable/meat1" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="55dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="68dp"
+        android:text="Et Sote"
+        android:textColor="#9C27B0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="197dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="12dp"
+        android:text="Küçük parçalar halinde sotelik doğradığınız dana etini tavaya alın. Suyunu salmaması, lezzet ve vitamin değerini hapsetmesi için; yüksek ateşte, yaklaşık 2-3 dakika hiç karıştırmadan eti mühürleyin. Mühürleme işlemi sonrasında dış kısmı renk alan etleri tavayı aralarda sallayarak yüksek ateşte sotelemeye devam edin."
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="139dp"
+        android:layout_height="133dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        app:srcCompat="@drawable/meat2" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="76dp"
+        android:text="Et Döner"
+        android:textColor="#9C27B0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="154dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="20dp"
+        android:text="Dana antrikot ya da but etini ince ince dilimleyin ya da dilimlenmiş şekilde alın. Yoğurt, zeytinyağı, kekik, toz kırmızı biber ve yenibaharı geniş bir kapta harmanladıktan sonra et dilimlerini bu karışıma bulayın. Dinlenmesi için etleri marinasyonuyla beraber buzdolabına kaldırın."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+</androidx.constraintlayout.widget.ConstraintLayout>

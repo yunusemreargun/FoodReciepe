@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="125dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/green" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Ispanak"
+        android:textColor="#9C27B0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="117dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView20"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/green2" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="12dp"
+        android:text="Yeşil Mercimek"
+        android:textColor="#9C27B0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="124dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView21"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/green3" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="176dp"
+        android:text="Yeşil Salata"
+        android:textColor="#9C27B0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="243dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="12dp"
+        android:text="Yıkayıp ayıkladığınız yarım kilo ıspanağı tencerenize koyun ve üzerine bir çay bardağı su ilave edin. Ispanaklar buharın etkisiyle kendilerini salacak ve ortalama 5-6 dakika içerisinde hazır olacaklar."
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="235dp"
+        android:layout_height="153dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="12dp"
+        android:text="Tencereye koyulur. 4 su bardağı su ile 20 dakika haşlanır. Haşlandıktan sonra suyu süzülür ve azıcık yıkanır. Soğan ve sarımsak yağda kavrulur ve üzerine salçası ilave edilir ve az daha kavrulur. Sonrasında tencereye alınan yeşil mercimeklerin üzerine kavrulan soğan ve salça ilave edilir."
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="219dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:text="1 Demet marul Yarım demet tere 1 demet roka 2 dal taze soğan 1 avuç taze nane 1 limon 2 yemek kaşığı zeytinyağı Yeteri kadar tuz."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+</androidx.constraintlayout.widget.ConstraintLayout>
